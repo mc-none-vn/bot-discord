@@ -1,0 +1,25 @@
+$description[## $json[List] | Mục lục Help
+### > $json[Normal] Normal
+**|===========================>**
+### > $json[Fun] Fun
+**|===========================>**
+### > $json[Msc1] Economy 
+**|===========================>**
+### > $json[Moderator] Moderator
+**|===========================>**
+
+### Note:
+➜ "**  < >  **": bắt buộc phải có
+➜ "** (< >) **": không quan trọng, có hay không cũng được
+➜ "** ||        || **": có thể bỏ phần đó (Dùng lệnh nhanh)
+]
+$newSelectMenu[help_$authorID{data:id}-;1;1;Chọn trang bạn muốn xem]
+$addSelectMenuOption[help_$authorID{data:id}-;Trang Chủ;help_$authorID{data:id}-home;;;{emoji:list}]
+$addSelectMenuOption[help_$authorID{data:id}-;Normal;help_$authorID{data:id}-normal;;;{emoji:normal}]
+$addSelectMenuOption[help_$authorID{data:id}-;Fun;help_$authorID{data:id}-fun;;;{emoji:fun}]
+$addSelectMenuOption[help_$authorID{data:id}-;Economy;help_$authorID{data:id}-economy;;;{emoji:msc,icon}]
+$addSelectMenuOption[help_$authorID{data:id}-;Moderator;help_$authorID{data:id}-moderator;;;{emoji:moderator}]
+$image[{data:line}]
+$footer[{data:footer}]
+$color[505050]
+{log:cmd}

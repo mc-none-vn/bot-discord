@@ -1,0 +1,98 @@
+{
+    "line": "https://i.imgur.com/JP7RlcY.gif",
+    "link": "https://discord.gg/kVFUBmhFEZ",
+    "guilds": {
+        "main": "1257993550243827723",
+        "dev": "1170356375382138901"
+    },
+    "footer": "© 2023 Mc's Team × {name}",
+    "e": {
+        "empty": "<:Mc_invisible:1409747379112116265>",
+        "true": {
+            "icon": "<a:Mc_true:1410479585052852327>",
+            "arrow": "<a:Mc_arrow:1410479871825678407>"
+        },
+        "false": {
+            "icon": "<a:Mc_false:1410479593252458610>",
+            "arrow": "<a:Mc_arrow:1410479880688107592>"
+        },
+        "warning": "<a:Mc_error:1410479107032088607>",
+        "moderator": "<:Mc_iconmoderator:1314892884373278812>",
+        "verify": "<:Mc_iconverify:1314892877142167552>",
+        "tick": "<:Mc_tickicon:1275003606327627828>",
+        "admin": "<:Mc_administratoricon:1279604715876909056>",
+        "arrow": {
+            "left": "<:Mc_left:1410480312261021808>",
+            "right": "<:Mc_right:1410480303600042004>"
+        },
+        "msc": {
+            "symbol": "<:Mc_msc:1410472886078279751>",
+            "icon": "<:Mc_iconmsc:1315188031401230436>"
+        },
+        "list": "<:Mc_iconlist:1314892879000502353>",
+        "normal": "<:Mc_iconnormal:1314892881059774557>",
+        "fun": ":smile:",
+        "top": "",
+        "info": "<:Mc_iconinfo:1314892888471240746>",
+        "name": "<:Mc_namecard:1273564965592109158>",
+        "owner": "<:Mc_iconowner:1314892890765393950>",
+        "members": {
+            "icon": "<:Mc_iconmembers:1314901137236688948>",
+            "online": "<:Mc_online:1409747457767899258>",
+            "idle": "<:Mc_idle:1409747477321748564>",
+            "dnd": "<:Mc_dnd:1409747496707559514>",
+            "offline": "<:Mc_offline:1409748368015491092>"
+        },
+        "boost": "<:Mc_boost:1410472896136089630>",
+        "protect": "<:Mc_protecticon:1271418300517191761>",
+        "emoji": "<:Mc_iconemoji:1261971623360200787>",
+        "developer": "<:Mc_icondeveloper:1314892886634008637>",
+        "staff": "<:Mc_iconstaff:1314892882838290463>",
+        "verifybot": "<:Mc_iconbotuser:1314901139136712738>",
+        "ping": "<:Mc_pingicon:1272873337479102476>",
+        "version": ":wrench:",
+        "global": "<:Mc_iconglobal:1314901135198261289>",
+        "cpr": "<:Mc_copyright:1265473145960272024>",
+        "card": "<:Mc_bankcard:1271406155155111970>",
+        "hopqua": "<:Mc_giftboxicon:1286681296642244619>",
+        "rule": "<:Mc_ruleicon:1259492975654735953>",
+        "reload": "<:Mc_iconreload:1280376810751787068>",
+        "wallet": "<:Mc_mscwallet:1258627460371582986>",
+        "rod": "<:Mc_cancau:1172527572198887516>",
+        "bait": "<:Mc_bait:1271349787698004000>",
+        "cart": "<:Mc_shoppingcart:1314892874818781255>",
+        "premium": "<:Mc_premium:1410480902731071598>",
+        "ca": {
+            "thuong": "<:Mc_cathuong:1170359432773902466>",
+            "hoi": "<:Mc_cahoi:1170359586327384194>",
+            "tuyet": "<:Mc_catuyet:1170359518685827123>",
+            "nhietdoi": "<:Mc_canhietdoi:1170359652987445288>"
+        },
+        "slot": [
+            "<a:Mc_slots:1409740534490206348>",
+            "<:Mc_slot1:1409740374842544128>",
+            "<:Mc_slot2:1409740389883052213>",
+            "<:Mc_slot3:1409740399920025640>",
+            "<:Mc_slot4:1409740425971109988>",
+            "<:Mc_slot5:1409740433734500466>",
+            "<:Mc_slot6:1409740443092258967>",
+            "<:Mc_slot7:1409740452130717716>",
+            "<:Mc_slot8:1409740461567901828>",
+            "<:Mc_slot9:1409740470023884832>",
+            "<:Mc_slot10:1409740481075875900>",
+            "<:Mc_slot11:1409740489950761106>",
+            "<:Mc_slot12:1409740498343559269>",
+            "<:Mc_slot13:1409740508577792122>",
+            "<:Mc_slot14:1409740519067877508>"
+        ],
+        "xx": [
+            "<a:Mc_dices:1410472740648910888>",
+            "<:Mc_dice1:1410472753391341578>",
+            "<:Mc_dice2:1410472766385160252>",
+            "<:Mc_dice3:1410472776040448040>",
+            "<:Mc_dice4:1410472785461116959>",
+            "<:Mc_dice5:1410472794965413981>",
+            "<:Mc_dice6:1410472808466874389>"
+        ]
+    }
+}
