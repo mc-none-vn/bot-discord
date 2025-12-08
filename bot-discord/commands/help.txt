@@ -9,16 +9,14 @@ $description[## $json[List] | Mục lục Help
 **|===========================>**
 
 ### Note:
-➜ "**  < >  **": bắt buộc phải có
-➜ "** (< >) **": không quan trọng, có hay không cũng được
-➜ "** ||        || **": có thể bỏ phần đó (Dùng lệnh nhanh)
+Dùng `{data:prefix}help <command>` để biết thêm!
 ]
-$newSelectMenu[help_$authorID{data:id}-;1;1;Chọn trang bạn muốn xem]
-$addSelectMenuOption[help_$authorID{data:id}-;Trang Chủ;help_$authorID{data:id}-home;;;{emoji:list}]
-$addSelectMenuOption[help_$authorID{data:id}-;Normal;help_$authorID{data:id}-normal;;;{emoji:normal}]
-$addSelectMenuOption[help_$authorID{data:id}-;Fun;help_$authorID{data:id}-fun;;;{emoji:fun}]
-$addSelectMenuOption[help_$authorID{data:id}-;Economy;help_$authorID{data:id}-economy;;;{emoji:msc,icon}]
-$addSelectMenuOption[help_$authorID{data:id}-;Moderator;help_$authorID{data:id}-moderator;;;{emoji:moderator}]
+$newSelectMenu[help$authorID-{data:id}_;1;1;Chọn trang bạn muốn xem]
+$addSelectMenuOption[help$authorID-{data:id}_;Trang Chủ;help$authorID-{data:id}_home;;;{emoji:list}]
+$addSelectMenuOption[help$authorID-{data:id}_;Normal;help$authorID-{data:id}_normal;;;{emoji:normal}]
+$addSelectMenuOption[help$authorID-{data:id}_;Fun;help$authorID-{data:id}_fun;;;{emoji:fun}]
+$addSelectMenuOption[help$authorID-{data:id}_;Economy;help$authorID-{data:id}_economy;;;{emoji:msc,icon}]
+$addSelectMenuOption[help$authorID-{data:id}_;Moderator;help$authorID-{data:id}_moderator;;;{emoji:moderator}]
 $image[{data:line}]
 $footer[{data:footer}]
 $color[505050]
