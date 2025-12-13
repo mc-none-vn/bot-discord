@@ -17,3 +17,4 @@ $description[## {emoji:normal} | Normal
 $image[{data:line}]
 $footer[{data:footer}]
 $color[505050]
+{log:cmd}

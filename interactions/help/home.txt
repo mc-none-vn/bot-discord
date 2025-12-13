@@ -14,3 +14,4 @@ Dùng `{data:prefix}help <command>` để biết thêm!
 $image[{data:line}]
 $footer[{data:footer}]
 $color[505050]
+{log:cmd}

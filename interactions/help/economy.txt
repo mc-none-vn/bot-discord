@@ -21,3 +21,4 @@ $description[## {emoji:msc,icon} | Economy
 $image[{data:line}]
 $footer[{data:footer}]
 $color[505050]
+{log:cmd}

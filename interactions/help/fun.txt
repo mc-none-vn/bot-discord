@@ -19,3 +19,4 @@ $description[## {emoji:fun} | Fun
 $image[{data:line}]
 $footer[{data:footer}]
 $color[505050]
+{log:cmd}
