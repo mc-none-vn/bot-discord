@@ -1,0 +1,9 @@
+$removeButtons
+$var[emoji;$serverEmojis[$guildID;** **]]
+
+$description[## {emoji:info} | Thông tin Máy chủ]
+$addField[**{emoji:emoji} Emoji máy chủ:**;└▹ $var[emoji];no]
+$image[{data:line}]
+$footer[{data:footer}]
+$color[00ffff]
+{log:cmd}
