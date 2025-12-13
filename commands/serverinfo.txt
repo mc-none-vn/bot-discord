@@ -20,8 +20,7 @@ $addField[**{emoji:boost} Server Boost:**;├▹ Cấp $var[Level]
 └▹ $var[Point] Điểm;no]
 $addField[**{emoji:protect} Độ bảo mật Của máy chủ:**;└▹ $var[Verify];yes]
 $addButton[yes;server$authorID-{data:id}_emoji;Emoji;secondary;no;{emoji:emoji};]
-$try $image[$guildBanner[$guildID]]
-$catch $image[{data:line}] $endtry
+$try $image[$guildBanner[$guildID]] $catch $image[{data:line}] $endtry
 $footer[{data:footer}]
 $color[00ffff]
 {log:cmd}
