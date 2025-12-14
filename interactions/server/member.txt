@@ -1,0 +1,7 @@
+$removeButtons $ephemeral
+$description[## **{emoji:members,icon} | Thành viên máy chủ**;1]
+{data:members}
+$image[{data:line};1]
+$footer[{data:footer};1]
+$color[00ffff;1]
+{log:cmd}
