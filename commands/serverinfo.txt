@@ -1,15 +1,15 @@
 $var[name;$serverName[$guildID]]
 $var[owner;<@$serverOwner[$guildID]>]
+$var[description;{emoji:empty}]
 $var[point;$numberSeparator[$boostCount;** **]]
-$var[verify;$serverVerificationLvl]
 $var[level;$numberSeparator[$boostLevel;** **]]
+$var[verify;$serverVerificationLvl]
+$if[$serverDescription!=] $var[description;$serverDescription[$guildID]] $endif
 
 $description[## {emoji:info} | Thông tin Máy chủ]
 $addField[**{emoji:name} Tên máy chủ**;└▹ $var[name];yes]
-$addField[**{emoji:owner} Owner máy chủ**;└▹ $var[owner];$replaceText[$if[$serverDescription!=] yes $else no $endif; ;]]
-$if[$serverDescription!=]
-  $addField[** {emoji:empty} Mô tả Máy chủ**;└▹ $serverDescription[$guildID];no]
-$endif
+$addField[**{emoji:owner} Owner máy chủ**;└▹ $var[owner];yes]
+$addField[** {emoji:empty} Mô tả Máy chủ**;└▹ $var[description];no]
 $addField[**{emoji:boost} Server Boost:** $var[point];{emoji:empty};yes]
 $addField[**{emoji:boost} Boost Level:** $var[level];{emoji:empty};yes]
 $addField[**{emoji:protect} Độ bảo mật Của máy chủ**;└▹ $var[verify];no]
