@@ -2,8 +2,8 @@
     "id": "$var[id]",
     "api": "$getVar[api]",
     "prefix": "$var[prefix]",
-    "line": "$getVar[line]",
-    "link": "$getVar[link]",
+    "line": "https://i.imgur.com/JP7RlcY.gif",
+    "link": "https://discord.gg/kVFUBmhFEZ",
     "guilds": {
         "main": "1257993550243827723",
         "dev": "1170356375382138901"
