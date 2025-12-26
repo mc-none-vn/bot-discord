@@ -1,4 +1,7 @@
 {
+    "id": "$var[id]",
+    "api": "$var[api]",
+    "prefix": "$var[prefix]",
     "line": "https://i.imgur.com/JP7RlcY.gif",
     "link": "https://discord.gg/kVFUBmhFEZ",
     "guilds": {

@@ -3,7 +3,7 @@ $description[## {emoji:list} | Mục lục Help
 **|===========================>**
 ### > {emoji:fun} Fun
 **|===========================>**
-### > {emoji:msc,icon} Economy 
+### > {emoji:msc.icon} Economy 
 **|===========================>**
 ### > {emoji:moderator} Moderator
 **|===========================>**

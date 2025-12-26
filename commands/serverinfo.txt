@@ -13,7 +13,7 @@ $addField[**{emoji:empty} Mô tả Máy chủ**;└▹ $var[description];no]
 $addField[**{emoji:boost} Server Boost:** $var[point];{emoji:empty};yes]
 $addField[**{emoji:protect} Độ bảo mật Của máy chủ**;└▹ $var[verify];no]
 $addButton[yes;server$authorID-{data:id}_emoji;Emoji;secondary;no;{emoji:emoji};]
-$addButton[no;server$authorID-{data:id}_member;Members;secondary;no;{emoji:members,icon};]
+$addButton[no;server$authorID-{data:id}_member;Members;secondary;no;{emoji:members.icon};]
 $try $image[$guildBanner[$guildID]] $catch $image[{data:line}] $endtry
 $footer[{data:footer}] $color[00ffff]
 {log:cmd}

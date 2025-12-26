@@ -3,7 +3,7 @@ $description[## {emoji:list} | Mục lục Help
 **|===========================>**
 ### > {emoji:fun} Fun
 **|===========================>**
-### > {emoji:msc,icon} Economy 
+### > {emoji:msc.icon} Economy 
 **|===========================>**
 ### > {emoji:moderator} Moderator
 **|===========================>**
@@ -15,7 +15,7 @@ $newSelectMenu[help$authorID-{data:id}_;1;1;Chọn trang bạn muốn xem]
 $addSelectMenuOption[help$authorID-{data:id}_;Trang Chủ;help$authorID-{data:id}_home;;;{emoji:list}]
 $addSelectMenuOption[help$authorID-{data:id}_;Normal;help$authorID-{data:id}_normal;;;{emoji:normal}]
 $addSelectMenuOption[help$authorID-{data:id}_;Fun;help$authorID-{data:id}_fun;;;{emoji:fun}]
-$addSelectMenuOption[help$authorID-{data:id}_;Economy;help$authorID-{data:id}_economy;;;{emoji:msc,icon}]
+$addSelectMenuOption[help$authorID-{data:id}_;Economy;help$authorID-{data:id}_economy;;;{emoji:msc.icon}]
 $addSelectMenuOption[help$authorID-{data:id}_;Moderator;help$authorID-{data:id}_moderator;;;{emoji:moderator}]
 $image[{data:line}] $footer[{data:footer}] $color[505050]
 {log:cmd}

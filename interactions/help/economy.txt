@@ -1,4 +1,4 @@
-$description[## {emoji:msc,icon} | Economy
+$description[## {emoji:msc.icon} | Economy
 ### {data:prefix}daily
 ➜ Nhận tiền hằng ngày
 ### {data:prefix}work
