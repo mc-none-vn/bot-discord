@@ -4,10 +4,10 @@ import os, json
 
 
 app = FastAPI()
-API_KEY = os.getenv("API_KEY")
+API_KEY = os.getenv("API_Key")
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 if not API_KEY:
-    raise RuntimeError("API_KEY not set")
+    raise RuntimeError("API_Key not set")
 
 
 def verify_api_key(x_api_key: str | None):
