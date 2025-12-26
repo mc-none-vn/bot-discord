@@ -1,5 +1,6 @@
 from fastapi.responses import PlainTextResponse, JSONResponse, Response
 from fastapi import FastAPI, Header, HTTPException, Path
+from data import data
 import os, json
 
 
@@ -38,7 +39,7 @@ async def get_static_file(file_path: str = Path(..., description="Path from proj
 
     if ext in {".txt", ".md", ".log"}:
         with open(abs_path, "r", encoding="utf-8") as f:
-            return PlainTextResponse(f.read())
+            return PlainTextResponse(data(f.read()))
 
     with open(abs_path, "rb") as f:
         return Response(
