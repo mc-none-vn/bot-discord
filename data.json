@@ -1,7 +1,7 @@
 {
     "id": "$var[id]",
-    "api": "$getVar[api]",
     "prefix": "$var[prefix]",
+    "api": "$getVar[api_$var[api]]",
     "line": "https://i.imgur.com/JP7RlcY.gif",
     "link": "https://discord.gg/kVFUBmhFEZ",
     "guilds": {
