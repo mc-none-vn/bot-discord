@@ -9,10 +9,10 @@ API_KEY = os.getenv("API_Key")
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 if not API_KEY:
     raise RuntimeError("API_Key not set")
-
+API_KEYS = {k.strip() for k in API_KEY.split(",")}
 
 def verify_api_key(x_api_key: str | None):
-    if x_api_key != API_KEY:
+    if not x_api_key or x_api_key not in API_KEYS:
         raise HTTPException(status_code=401, detail="Invalid API key")
 
 
