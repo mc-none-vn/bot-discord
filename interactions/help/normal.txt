@@ -7,8 +7,6 @@ $description[## {emoji:normal} | Normal
 ➜ Thông tin của Bot __(Có link Invite bot và Server support)__
 ### {data:prefix}math (<phép tính>)
 ➜ Dùng để tính toán
-### {data:prefix}colorinfo <màu>
-➜ Xem các thông tin về 1 màu nào đó
 ### {data:prefix}top
 ➜ Xem bảng xếp hạng
 

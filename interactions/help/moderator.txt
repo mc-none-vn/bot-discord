@@ -5,10 +5,8 @@ $description[## {emoji:moderator} | Moderator
 ➜ Cài đặt các tùy chỉnh lời tạm biệt
 ### {data:prefix}clear <số lượng> (<ping>)
 ➜ Xoá tin nhắn, có thể xoá tin nhắn 1 người dùng (đếm cả tin nhắn không phải của người dùng để đúng hơn)
-### {data:prefix}mute <ping> <time> (<lí do>)
-➜ Dùng để cấm chat ai đó, time: 1m, 5m, 1h, v.v
-### {data:prefix}unmute <ping>
-➜ Dùng để bỏ cấm chat ai đó
+### {data:prefix}mod <ping>
+➜ Hiển thị bảng quản lý người dùng
 ### {data:prefix}verify
 ➜ Cài đặt các tùy chỉnh xác minh
 
