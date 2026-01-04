@@ -53,7 +53,12 @@
         "developer": "<:Mc_icondeveloper:1314892886634008637>",
         "staff": "<:Mc_iconstaff:1314892882838290463>",
         "verifybot": "<:Mc_iconbotuser:1314901139136712738>",
-        "ping": "<:Mc_pingicon:1272873337479102476>",
+        "ping": {
+            "icon": "<:Mc_pingicon:1272873337479102476>",
+            "server": "",
+            "bot": "",
+            "api": ""
+        },
         "version": ":wrench:",
         "global": "<:Mc_iconglobal:1314901135198261289>",
         "cpr": "<:Mc_copyright:1265473145960272024>",
