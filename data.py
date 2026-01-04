@@ -23,7 +23,7 @@ def _get_by_path(data: dict, path: str):
 
 _EMOJI_RE = re.compile(r"\{emoji:([\w\.]+)\}")
 _DATA_RE  = re.compile(r"\{data:([\w\.]+)\}")
-_REPEAT_RE = re.compile(r"\{repeat(\d+):(.+?)\}")
+_REPEAT_RE = re.compile(r"\{repeat(\d+):(.+?)\}", re.DOTALL)
 
 
 def data(text: str) -> str:
