@@ -4,7 +4,7 @@ $httpGet[$getVar[api]/ping?ping=$ping&h=$splitText[1]&m=$splitText[2]&s=$splitTe
 $jsonParse[$replaceText[$httpResult;ms;;2]]
 
 $description[## **{emoji:ping.icon} | Độ trễ / Uptime**
-$calculate[$json[api] + $json[bot]]ms
+Total: $calculate[$json[api] + $json[bot]]ms
 ├▹ {emoji:ping.api} Api: $json[api]ms
 ├▹ {emoji:ping.bot} Bot: $json[bot]ms
 └▹ {emoji:ping.server} Uptime: $httpResult[uptime]
