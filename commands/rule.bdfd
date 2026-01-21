@@ -1,17 +1,11 @@
 #v2 #ff0000
 $var[rule;$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$getVar[bot_rule];{EMOJI};{emoji:rule};1];{EMOJI};⚠️;1];{EMOJI};{emoji:msc.symbol};1];{EMOJI};{emoji:protect};1];{EMOJI};🚫;1];{EMOJI};🚨;1]]
 $textSplit[$var[rule];
-] $if[$var[click]==false]
-	$var[interaction;accept] $var[style;success]
-	$var[text;Tôi đồng ý]
-$elseif[$var[click]==true]
-	$var[interaction;cancel] $var[style;danger]
-	$var[text;Tôi không đồng ý]
-$endif
+]
 
 $addTextDisplay[$splitText[<];main]
 $addSeparator[true;;main]
 $addTextDisplay[$replaceText[$var[rule];$splitText[<]
 ;;1];main]
 $addActionRow[button;main]
-$addButtonCV2[rule$authorID-$var[id]_$var[interaction];$var[text];$var[style];false;;button]
+$addButtonCV2[rule$authorID-$var[id]_$if[$var[click]==false] $replaceText[accept;.;]$else $replaceText[cancel;.;]$endif;$if[$var[click]==false] $replaceText[Tôi đồng ý;.;]$else $replaceText[Tôi không đồng ý;.;]$endif;$if[$var[click]==false] $replaceText[success;.;]$else $replaceText[danger;.;]$endif;false;;button]
