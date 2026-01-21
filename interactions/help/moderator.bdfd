@@ -14,6 +14,7 @@ $addTextDisplay[### {data:prefix}join
 ➜ Cài đặt các tùy chỉnh xác minh
 
 -# Tất cả lệnh không phân biệt chữ hoa/thường;main]
+$addActionRow[button;main]
 $addButtonCV2[help$authorID-{data:id}_home;Trang Chủ;primary;false;{emoji:list};button]
 $addButtonCV2[help$authorID-{data:id}_normal;Normal;primary;false;{emoji:normal};button]
 $addButtonCV2[help$authorID-{data:id}_fun;Fun;primary;false;{emoji:fun};button]
