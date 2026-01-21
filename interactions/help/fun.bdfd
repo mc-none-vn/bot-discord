@@ -1,6 +1,8 @@
 #v1 #00ccff
-$description[## {emoji:fun} | Fun
-### {data:prefix}picture <tên>
+$removeAllComponents
+$addTextDisplay[## {emoji:fun} | Fun;main]
+$addSeparator[true;;main]
+$addTextDisplay[### {data:prefix}picture <tên>
 ➜ Để xem ảnh anime/avatar
 ### {data:prefix}rcb <ping>
 ➜ Chơi kéo búa bao với ai đó
@@ -9,5 +11,9 @@ $description[## {emoji:fun} | Fun
 ### {data:prefix}translate <ngôn ngữ> <nội dung>
 ➜ Dịch 1 tin nhắn sang ngôn ngữ yêu cầu
 
--# Tất cả lệnh không phân biệt chữ hoa/thường
-]
+-# Tất cả lệnh không phân biệt chữ hoa/thường;main]
+$addButtonCV2[help$authorID-{data:id}_home;Trang Chủ;primary;false;{emoji:list};button]
+$addButtonCV2[help$authorID-{data:id}_normal;Normal;primary;false;{emoji:normal};button]
+$addButtonCV2[help$authorID-{data:id}_fun;Fun;secondary;true;{emoji:fun};button]
+$addButtonCV2[help$authorID-{data:id}_economy;Economy;primary;false;{emoji:msc.icon};button]
+$addButtonCV2[help$authorID-{data:id}_moderator;Moderator;primary;false;{emoji:moderator};button]

@@ -1,6 +1,8 @@
 #v1 #00ccff
-$description[## {emoji:list} | Mục lục Help
-### > {emoji:normal} Normal
+$removeAllComponents
+$addTextDisplay[## {emoji:list} | Mục lục Help;main]
+$addSeparator[true;;main]
+$addTextDisplay[### > {emoji:normal} Normal
 **|===========================>**
 ### > {emoji:fun} Fun
 **|===========================>**
@@ -10,5 +12,9 @@ $description[## {emoji:list} | Mục lục Help
 **|===========================>**
 
 ### Note:
-Dùng `{data:prefix}help <command>` để biết thêm!
-]
+Dùng `{data:prefix}help <command>` để biết thêm!;main]
+$addButtonCV2[help$authorID-{data:id}_home;Trang Chủ;secondary;true;{emoji:list};button]
+$addButtonCV2[help$authorID-{data:id}_normal;Normal;primary;false;{emoji:normal};button]
+$addButtonCV2[help$authorID-{data:id}_fun;Fun;primary;false;{emoji:fun};button]
+$addButtonCV2[help$authorID-{data:id}_economy;Economy;primary;false;{emoji:msc.icon};button]
+$addButtonCV2[help$authorID-{data:id}_moderator;Moderator;primary;false;{emoji:moderator};button]

@@ -1,6 +1,8 @@
 #v1 #00ccff
-$description[## {emoji:normal} | Normal
-### {data:prefix}help
+$removeAllComponents
+$addTextDisplay[## {emoji:normal} | Normal;main]
+$addSeparator[true;;main]
+$addTextDisplay[### {data:prefix}help
 ➜ Hiện các lệnh của Bot mà bạn có thể dùng
 ### {data:prefix}serverinfo
 ➜ Thông tin của Máy chủ này
@@ -11,5 +13,9 @@ $description[## {emoji:normal} | Normal
 ### {data:prefix}top
 ➜ Xem bảng xếp hạng
 
--# Tất cả lệnh không phân biệt chữ hoa/thường
-]
+-# Tất cả lệnh không phân biệt chữ hoa/thường;main]
+$addButtonCV2[help$authorID-{data:id}_home;Trang Chủ;primary;false;{emoji:list};button]
+$addButtonCV2[help$authorID-{data:id}_normal;Normal;secondary;true;{emoji:normal};button]
+$addButtonCV2[help$authorID-{data:id}_fun;Fun;primary;false;{emoji:fun};button]
+$addButtonCV2[help$authorID-{data:id}_economy;Economy;primary;false;{emoji:msc.icon};button]
+$addButtonCV2[help$authorID-{data:id}_moderator;Moderator;primary;false;{emoji:moderator};button]

@@ -1,6 +1,8 @@
 #v1 #00ccff
-$description[## {emoji:msc.icon} | Economy
-### {data:prefix}daily
+$removeAllComponents
+$addTextDisplay[## {emoji:msc.icon} | Economy;main]
+$addSeparator[true;;main]
+$addTextDisplay[### {data:prefix}daily
 ➜ Nhận tiền hằng ngày
 ### {data:prefix}work
 ➜ Làm việc để kiếm tiền
@@ -19,5 +21,9 @@ $description[## {emoji:msc.icon} | Economy
 ### {data:prefix}pay <ping> <số tiền>
 ➜ Đưa tiền mặt cho người khác
 
--# Tất cả lệnh không phân biệt chữ hoa/thường
-]
+-# Tất cả lệnh không phân biệt chữ hoa/thường;main]
+$addButtonCV2[help$authorID-{data:id}_home;Trang Chủ;primary;false;{emoji:list};button]
+$addButtonCV2[help$authorID-{data:id}_normal;Normal;primary;false;{emoji:normal};button]
+$addButtonCV2[help$authorID-{data:id}_fun;Fun;primary;false;{emoji:fun};button]
+$addButtonCV2[help$authorID-{data:id}_economy;Economy;secondary;true;{emoji:msc.icon};button]
+$addButtonCV2[help$authorID-{data:id}_moderator;Moderator;primary;false;{emoji:moderator};button]
