@@ -1,4 +1,4 @@
-#v1 #00ccff
+#v2 #00ccff
 $removeAllComponents
 $addTextDisplay[## {emoji:normal} | Normal;main]
 $addSeparator[true;;main]

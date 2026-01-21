@@ -1,4 +1,4 @@
-#v1 #00ccff
+#v2 #00ccff
 $addTextDisplay[## {emoji:list} | Mục lục Help;main]
 $addSeparator[true;;main]
 $addTextDisplay[### > {emoji:normal} Normal

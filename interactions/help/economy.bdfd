@@ -1,4 +1,4 @@
-#v1 #00ccff
+#v2 #00ccff
 $removeAllComponents
 $addTextDisplay[## {emoji:msc.icon} | Economy;main]
 $addSeparator[true;;main]
