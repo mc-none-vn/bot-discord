@@ -5,7 +5,9 @@ import os, json, re
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 @lru_cache(maxsize=1)
 def _load_data_json() -> dict:
-    path = os.path.join(ROOT_DIR, "data.json")
+    public_path = os.path.join(ROOT_DIR, "public", "data.json")
+    local_path = os.path.join(ROOT_DIR, "data.json")
+    path = public_path if os.path.isfile(public_path) else local_path
     if not os.path.isfile(path):
         return {}
     with open(path, "r", encoding="utf-8") as f:
@@ -26,7 +28,7 @@ _DATA_RE  = re.compile(r"\{data:([\w\.]+)\}")
 _REPEAT_RE = re.compile(r"\{repeat(\d+):(.+?)\}", re.DOTALL)
 
 
-def data(text: str) -> str:
+def replaceText(text: str) -> str:
     data_json = _load_data_json()
     text = text.replace(r'\}', '%RB%')
 
@@ -35,7 +37,7 @@ def data(text: str) -> str:
         return str(val) if val is not None else m.group(0)
 
     def repl_data(m):
-        val = _get_by_path(data_json, m.group(1))
+        val = _get_by_path(data_json.get("bdfd", {}), m.group(1))
         return str(val) if val is not None else m.group(0)
 
     text = text.replace("{count}", "%COUNT%")
