@@ -41,13 +41,15 @@ def replaceText(text: str) -> str:
         return str(val) if val is not None else m.group(0)
 
     text = text.replace("{count}", "%COUNT%")
+    text = text.replace("{count1}", "%COUNT1%")
 
     def repl_repeat(m):
         times = int(m.group(1))
         content = m.group(2)
         result = ''
-        for i in range(1, times + 1):
+        for i in range(0, times):
             result += content.replace("%COUNT%", str(i))
+            result += content.replace("%COUNT1%", str(i+1))
         return result
 
     text = _EMOJI_RE.sub(repl_emoji, text)
