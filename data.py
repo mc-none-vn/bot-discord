@@ -49,11 +49,12 @@ def replaceText(text: str) -> str:
         result = ''
         for i in range(0, times):
             result += content.replace("%COUNT%", str(i))
-            result += content.replace("%COUNT1%", str(i+1))
+        for i in range(1, times + 1):
+            result += content.replace("%COUNT1%", str(i))
         return result
 
     text = _EMOJI_RE.sub(repl_emoji, text)
     text = _DATA_RE.sub(repl_data, text)
     text = _REPEAT_RE.sub(repl_repeat, text)
-    text = text.replace('%RB%', '}').replace("%COUNT%", "{count}")
+    text = text.replace('%RB%', '}').replace("%COUNT%", "{count}").replace("%COUNT1%", "{count1}")
     return text
