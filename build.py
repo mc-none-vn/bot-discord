@@ -5,8 +5,8 @@ from data import replaceText
 
 ROOT = pathlib.Path(__file__).parent
 SOURCES = {
-    "commands": ROOT / "commands",
-    "interactions": ROOT / "interactions",
+    "commands": ROOT / "command",
+    "interactions": ROOT / "interaction",
 }
 PUBLIC = ROOT / "public"
 
