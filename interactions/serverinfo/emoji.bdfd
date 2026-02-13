@@ -1,7 +1,7 @@
-#00ccff
 $removeAllComponents
 $var[emoji;$serverEmojis[$guildID; ]]
 
+$addContainer[main; #00ccff]
 $addTextDisplay[## **{emoji:emoji} | Emoji máy chủ**;main]
 $addSeparator[true;;main]
 $addTextDisplay[# $var[emoji];main]

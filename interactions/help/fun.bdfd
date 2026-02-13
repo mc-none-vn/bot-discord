@@ -1,5 +1,5 @@
-#00ccff
 $removeAllComponents
+$addContainer[main; #00ccff]
 $addTextDisplay[## {emoji:fun} | Fun;main]
 $addSeparator[true;;main]
 $addTextDisplay[### {data:prefix}picture <tên>

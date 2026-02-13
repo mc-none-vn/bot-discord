@@ -1,4 +1,3 @@
-#00ccff
 $jsonParse[{"o": $var[owner], "d": $var[dev]}]
 {repeat10:$if[$json[o;{count}]!=]$jsonArrayUnshift[d;$json[o;{count}]]$endif}
 $var[dev;{repeat10:$optOff[$try$var[q;$if[$checkContains[$var[owner];$json[d;{count}]]==true]{emoji:owner}| $elseif[$checkContains[$var[owner];$json[d;{count}]]==false]{emoji:staff}| $endif]$if[$json[d;$sum[{count};1]]!=]├▹$elseif[$json[d;$sum[{count};1]]==]└▹$endif $var[q] [$displayName[$json[d;{count}]]\](https://cdn.discordapp.com/users/$json[d;{count}]/)$endtry]
@@ -8,6 +7,7 @@ $var[server;$numberSeparator[$serverCount;** **]]
 $var[member;$numberSeparator[$allMembersCount;** **]]
 $var[user;$numberSeparator[$var[user];** **]]
 
+$addContainer[main; #00ccff]
 $addTextDisplay[## {emoji:info} | Thông tin Của tôi;main]
 $addSeparator[true;;main]
 $addTextDisplay[**{emoji:name} Tên:**

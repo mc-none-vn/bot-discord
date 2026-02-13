@@ -1,5 +1,5 @@
-#00ccff
 $removeAllComponents
+$addContainer[main; #00ccff]
 $addTextDisplay[## {emoji:moderator} | Moderator;main]
 $addSeparator[true;;main]
 $addTextDisplay[### {data:prefix}join

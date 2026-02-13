@@ -1,5 +1,5 @@
-#00ccff
 $removeAllComponents
+$addContainer[main; #00ccff]
 $addTextDisplay[## {emoji:msc.icon} | Economy;main]
 $addSeparator[true;;main]
 $addTextDisplay[### {data:prefix}daily

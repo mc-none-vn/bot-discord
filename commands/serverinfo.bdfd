@@ -1,4 +1,3 @@
-#00ccff
 $var[name;$serverName[$guildID]]
 $var[owner;<@$serverOwner[$guildID]>]
 $var[description;{emoji:empty}]
@@ -6,6 +5,7 @@ $var[point;$numberSeparator[$boostCount;** **]]
 $var[level;$numberSeparator[$boostLevel;** **]]
 $var[verify;$serverVerificationLvl]
 
+$addContainer[main; #00ccff]
 $addTextDisplay[## {emoji:info} | Thông tin Máy chủ;main]
 $addSeparator[true;;main]
 $addTextDisplay[**{emoji:name} Tên máy chủ**

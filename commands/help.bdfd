@@ -1,4 +1,4 @@
-#00ccff
+$addContainer[main; #00ccff]
 $addTextDisplay[## {emoji:list} | Mục lục Help;main]
 $addSeparator[true;;main]
 $addTextDisplay[### > {emoji:normal} Normal
