@@ -1,4 +1,3 @@
-$addContainer[main; #00ccff]
 $addTextDisplay[## {emoji:list} | Mục lục Help;main]
 $addSeparator[true;;main]
 $addTextDisplay[### > {emoji:normal} Normal
@@ -13,3 +12,4 @@ $addButtonCV2[help$authorID-{data:id}_normal;;secondary;false;{emoji:normal};but
 $addButtonCV2[help$authorID-{data:id}_fun;;secondary;false;{emoji:fun};button]
 $addButtonCV2[help$authorID-{data:id}_economy;;secondary;false;{emoji:msc.icon};button]
 $addButtonCV2[help$authorID-{data:id}_moderator;;secondary;false;{emoji:moderator};button]
+#00ccff

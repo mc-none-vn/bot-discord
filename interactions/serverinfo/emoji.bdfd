@@ -1,9 +1,9 @@
 $removeAllComponents
 $var[emoji;$serverEmojis[$guildID; ]]
 
-$addContainer[main; #00ccff]
 $addTextDisplay[## **{emoji:emoji} | Emoji máy chủ**;main]
 $addSeparator[true;;main]
 $addTextDisplay[# $var[emoji];main]
 $addActionRow[button;main]
 $addButtonCV2[serverinfo$authorID-{data:id}_exit;Back;secondary;false;{emoji:back};button]
+#00ccff

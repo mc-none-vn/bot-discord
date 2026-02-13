@@ -2,7 +2,6 @@ $removeAllComponents
 $var[member;$membersCount-$membersCount[online]-$membersCount[idle]-$membersCount[dnd]]
 $var[member;$var[member]-$calculate[$var[member]]] $textSplit[$var[member];-]
 
-$addContainer[main; #00ccff]
 $addTextDisplay[## **{emoji:members.icon} | Thành viên máy chủ**;main]
 $addSeparator[true;;main]
 $addTextDisplay[$numberSeparator[$splitText[1];** **] Members
@@ -12,3 +11,4 @@ $addTextDisplay[$numberSeparator[$splitText[1];** **] Members
 └▹ {emoji:members.offline} __$numberSeparator[$splitText[5];** **]__ Offline;main]
 $addActionRow[button;main]
 $addButtonCV2[serverinfo$authorID-{data:id}_exit;Back;secondary;false;{emoji:back};button]
+#00ccff

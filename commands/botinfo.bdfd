@@ -7,7 +7,6 @@ $var[server;$numberSeparator[$serverCount;** **]]
 $var[member;$numberSeparator[$allMembersCount;** **]]
 $var[user;$numberSeparator[$var[user];** **]]
 
-$addContainer[main; #00ccff]
 $addTextDisplay[## {emoji:info} | Thông tin Của tôi;main]
 $addSeparator[true;;main]
 $addTextDisplay[**{emoji:name} Tên:**
@@ -22,3 +21,4 @@ $addActionRow[button;main]
 $addButtonCV2[$getBotInvite;Invite bot;link;false;;button]
 $addButtonCV2[{data:link};Support server;link;false;;button]
 $addButtonCV2[botinfo$authorID-{data:id}_ping;Ping;secondary;false;{emoji:ping.icon};button]
+#00ccff

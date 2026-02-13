@@ -1,5 +1,4 @@
 $removeAllComponents
-$addContainer[main; #00ccff]
 $addTextDisplay[## {emoji:msc.icon} | Economy;main]
 $addSeparator[true;;main]
 $addTextDisplay[### {data:prefix}daily
@@ -29,3 +28,4 @@ $addButtonCV2[help$authorID-{data:id}_economy;;secondary;true;{emoji:msc.icon};b
 $addButtonCV2[help$authorID-{data:id}_moderator;;secondary;false;{emoji:moderator};button]
 $addActionRow[home;main]
 $addButtonCV2[help$authorID-{data:id}_exit;Trang chủ;secondary;false;{emoji:list};home]
+#00ccff

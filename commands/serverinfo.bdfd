@@ -5,7 +5,6 @@ $var[point;$numberSeparator[$boostCount;** **]]
 $var[level;$numberSeparator[$boostLevel;** **]]
 $var[verify;$serverVerificationLvl]
 
-$addContainer[main; #00ccff]
 $addTextDisplay[## {emoji:info} | Thông tin Máy chủ;main]
 $addSeparator[true;;main]
 $addTextDisplay[**{emoji:name} Tên máy chủ**
@@ -23,3 +22,4 @@ $addActionRow[button;main]
 $addButtonCV2[serverinfo$authorID-{data:id}_banner;Banner;secondary;false;{emoji:empty};button]
 $addButtonCV2[serverinfo$authorID-{data:id}_emoji;Emoji;secondary;false;{emoji:emoji};button]
 $addButtonCV2[serverinfo$authorID-{data:id}_member;Members;secondary;false;{emoji:members.icon};button]
+#00ccff

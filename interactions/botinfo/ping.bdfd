@@ -3,7 +3,6 @@ $textSplit[$uptime;:] $enableDecimals[yes]
 $httpGet[$getVar[api]/ping?ping=$ping&h=$splitText[1]&m=$splitText[2]&s=$splitText[3]]
 $jsonParse[$httpResult]
 
-$addContainer[main; #00ccff]
 $addTextDisplay[## **{emoji:ping.icon} | Độ trễ / Uptime**;main]
 $addSeparator[true;;main]
 $addTextDisplay[Total: $try$calculate[$json[api] + $json[bot]]$catchN/A$endtry ms
@@ -12,3 +11,4 @@ $addTextDisplay[Total: $try$calculate[$json[api] + $json[bot]]$catchN/A$endtry m
 └▹ {emoji:ping.server} Uptime: $json[uptime];main]
 $addActionRow[button;main]
 $addButtonCV2[botinfo$authorID-{data:id}_exit;Back;secondary;false;{emoji:back};button]
+#00ccff
