@@ -5,9 +5,9 @@ $jsonParse[$httpResult]
 
 $addTextDisplay[## **{emoji:ping.icon} | Độ trễ / Uptime**;main]
 $addSeparator[true;;main]
-$addTextDisplay[Total: $try$calculate[$json[api] + $json[bot]]$catchN/A$endtry ms
-├▹ {emoji:ping.api} Api: $json[api] ms
-├▹ {emoji:ping.bot} Bot: $json[bot] ms
+$addTextDisplay[Total: $json[total]
+├▹ {emoji:ping.api} Api: $json[api]
+├▹ {emoji:ping.bot} Bot: $json[bot]
 └▹ {emoji:ping.server} Uptime: $json[uptime];main]
 $addActionRow[button;main]
 $addButtonCV2[botinfo$authorID-{data:id}_exit;Back;secondary;false;{emoji:back};button]
